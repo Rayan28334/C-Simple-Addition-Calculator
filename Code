@@ -1,0 +1,19 @@
+ Console.WriteLine("Welcome to my addition calulator!");
+ Console.WriteLine("---------------------------------");
+ int usersNumber1 = 0;
+ int usersNumber2 = 0;
+
+ Console.WriteLine("Enter first WHOLE number");
+ string userInput = Console.ReadLine();
+ usersNumber1 = int.Parse(userInput);
+
+ Console.WriteLine("Enter second WHOLE number");
+ userInput = Console.ReadLine();
+ usersNumber2 = int.Parse(userInput);
+
+ int Sum = usersNumber1 + usersNumber2;
+
+ Console.WriteLine($"{usersNumber1} + {usersNumber2} = {Sum}");
+ Console.WriteLine("----------------------------------------");
+ Console.WriteLine("Click on any key to exit the Calculator");            
+ Console.ReadKey();
